@@ -1,0 +1,41 @@
+
+/*  Theme Name: Basic Theme
+  Version: 1
+  Author: Trevor*/
+
+
+
+body{
+	background-color: #435555;
+	font-family: 'Lato', sans-serif;
+	color: #001111;
+}
+h1 h2 h3 h4 p{color: #001111;}
+
+a{color: #001111;}
+a:hover{
+	color: #001111;
+}
+ul{list-style-type: none;}
+li > a{color: white}
+.container{background-color: white; padding-bottom: 15px;}
+.menu-menu-1-container{background-color: #001111;}
+
+.red{background-color: red;}
+
+/*helper class*/
+.green-background{background-color: #435555;}
+
+.whitefont{
+	color: white;
+}
+
+/*.recent-posts{position: absolute;}*/
+
+/*image align*/
+img.alignright {float: right; margin: 0 0 1em 1em;}
+img.alignleft {float: left; margin: 0 1em 1em 0;}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto;}
+.alignright {float: right;}
+.alignleft {float: left;}
+.aligncenter {display: block; margin-left: auto; margin-right: auto;}
