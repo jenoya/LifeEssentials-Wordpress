@@ -79,8 +79,31 @@ img.aligncenter {display: block; margin-left: auto; margin-right: auto;}
 .alignleft {float: left;}
 .aligncenter {display: block; margin-left: auto; margin-right: auto;}
 
+/*buttons*/
+.btn-primary{
+	border: 1px solid #001111;
+	background-color: #435555;
+	color: white;
+	text-align: center;
+}
+.btn-primary:hover{
+	border: 1px solid #001111;
+	background-color: #001111;
+	text-decoration: none;
+}
+.btn-primary:visited{text-decoration: none;}
 
+/*side bar social links*/
+.facebook-logo, .edc-logo, .facebook-logo img, .edc-logo img{
+	width:50px;
+	float: left;
+	margin-right: 10px;
+}
+.edc-logo{
+	border-radius: 5px;
+	background-color: #0D0D0D;
 
+}
 
 /*==================================================
 =            Bootstrap 3 Media Queries             =

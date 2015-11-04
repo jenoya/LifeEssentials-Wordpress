@@ -12,6 +12,7 @@
 			<h2>Advertise with Us</h2>
 			<hr/>
 			<h3>Plans</h3>
+			
 			<div class="row">
 				
 				<div class="col-xs-4">
@@ -31,7 +32,9 @@
 				</div>
 				
 				<div class="col-xs-2">
-					<div class="button button-primary"><h5>Buy Now</h5></div>
+					<a href="#">
+						<div class="button btn-primary"><h5>Buy Now</h5></div>
+					</a>
 				</div>
 
 			</div>
@@ -57,7 +60,9 @@
 				</div>
 				
 				<div class="col-xs-2">
-					<div class="button button-primary"><h5>Buy Now</h5></div>
+					<a href="#">
+						<div class="button btn-primary"><h5>Buy Now</h5></div>
+					</a>
 				</div>
 
 			</div>

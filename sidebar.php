@@ -35,9 +35,19 @@
 		<p>akjdfhldsjf hldskjf kjfhsdkjfhskjdf lasdkjfhkdsjf skdjfhkdsjfhks djlfadskjfhadskjfhadskj fksdjafkafksfhlsdkjfl adskfhds.</p>
 	</div>
 	<div class="social-row">
+		
 		<h2>Stay Social</h2>
-		<a href="https://www.facebook.com/its17">
-			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/2000px-F_icon.svg.png" style="width:50px;" />
+		
+		<div class="facebook-logo">
+			<a href="https://www.facebook.com/its17" target="_blank">
+				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/2000px-F_icon.svg.png" />
+			</a>
+		</div>
+		
+		<a href="http://everydaycarry.com/profile/22980/Jennifer-Oya" target="_blank">
+			<div class="edc-logo">
+				<img src="<?php bloginfo('template_directory'); ?>/images/logo_text_white.png" alt="everydaycarry.com logo" />
+			</div>
 		</a>
 	</div>
 
