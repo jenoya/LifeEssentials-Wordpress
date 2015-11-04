@@ -1,0 +1,7 @@
+.category-nav > li > a{
+	color: #001111;
+}
+
+.category-nav > li{
+	display: inline;
+}
