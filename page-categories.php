@@ -1,8 +1,4 @@
-<?php get_header();
-/*
-Template Name: About Page
-*/
-?>
+<?php get_header(); ?>
 
 <div class="row">
 	
@@ -12,11 +8,14 @@ Template Name: About Page
 		<!-- <div class="col-xs-3"> -->
 		<h1><?php the_title();?></h1>
 		<!-- </div> -->
-		<img src="<?php bloginfo('template_directory'); ?>/images/jenprofile.jpg" alt="Jennifer Oya" style="float:left; margin-right: 10px;">
+
+			<!-- <div class="col-xs-9"> -->
+				<img src="<?php the_field("image"); ?>" alt="">
 
 
-		<?php the_field("company_info"); ?>
+				<?php the_field("company_info"); ?>
 
+			<!-- </div> -->
 
 		<?php endwhile; else: ?>
 			<p>Sorry, no pages matched your criteria.</p>

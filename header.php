@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title><?php if(is_home()) bloginfo('name'); else wp_title(''); ?></title>
+	<title><?php if(is_home()) bloginfo('name'); else bloginfo('name'); wp_title(''); ?></title>
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>">
 	<!-- masonry css -->
@@ -19,6 +19,9 @@
 
 </head>
 <body>
+	<div class="logo">
+		<logo><span>Life</span>Essentials</logo>
+	</div>
 	<div class="container">
 
 	<div class="row whitefont">
