@@ -34,4 +34,10 @@ $('.grid').masonry({
   columnWidth: 165
 });
 </script>
+<script type="text/javascript">
+	jQuery(document).ready(function ($) {
+		$('#tabs').tab();
+	});
+</script>
+
 </html>
