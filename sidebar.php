@@ -1,6 +1,12 @@
 
 <div class="col-xs-12 col-sm-3">
 
+<?php if ( is_active_sidebar( 'home_right_1' ) ) : ?>
+	<div id="primary-sidebar" class="primary-sidebar widget-area mt20" role="complementary">
+		<?php dynamic_sidebar( 'home_right_1' ); ?>
+	</div><!-- #primary-sidebar -->
+<?php endif; ?>
+
 <?php if(!is_page('about')){ ?>
 	<div class="about_info">
 		<h2>About</h2>

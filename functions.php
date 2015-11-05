@@ -1,4 +1,5 @@
 
+<!-- Register Menu -->
 <?php
 add_action( 'after_setup_theme', 'register_my_menu' );
 function register_my_menu() {
@@ -6,6 +7,28 @@ function register_my_menu() {
 }
 ?>
 
+
 <?php 
 add_theme_support( 'post-thumbnails' );
+?>
+
+<!-- Register Widgets -->
+<?php
+/**
+ * Register our sidebars and widgetized areas.
+ *
+ */
+function arphabet_widgets_init() {
+
+	register_sidebar( array(
+		'name'          => 'Home right sidebar',
+		'id'            => 'home_right_1',
+		'before_widget' => '<div>',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h2 class="rounded">',
+		'after_title'   => '</h2>',
+	) );
+
+}
+add_action( 'widgets_init', 'arphabet_widgets_init' );
 ?>

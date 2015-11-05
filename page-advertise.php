@@ -21,12 +21,12 @@
 					<p>100% x 130 px (m)</p>
 				</div>
 				
-				<div class="col-xs-3 center">
+				<div class="col-xs-3 text-center">
 					<h5>12,000,000</h5>
 					<p >Est. Impressions</p>
 				</div>
 				
-				<div class="col-xs-3 center">
+				<div class="col-xs-3 text-center">
 					<h5>$10.00</h5>
 					<p>Per 1k Imps.</p>
 				</div>
@@ -49,12 +49,12 @@
 					<p>100% x 2 px (m)</p>
 				</div>
 
-				<div class="col-xs-3 center">
+				<div class="col-xs-3 text-center">
 					<h5>12,000,000</h5>
 					<p>Est. Impressions</p>
 				</div>
 				
-				<div class="col-xs-3 center">
+				<div class="col-xs-3 text-center">
 					<h5>$5.00</h5>
 					<p>Per 1k Imps.</p>
 				</div>

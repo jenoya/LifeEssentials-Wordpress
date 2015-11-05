@@ -29,7 +29,7 @@
 	</div>
 	<div class="container">
 
-	<div class="row whitefont">
+	<div class="row whitefont" id="full-menu">
 		<?php
 		wp_nav_menu(['menu_class' => 'nav nav-pills',]);
 		?>
