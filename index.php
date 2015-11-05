@@ -6,18 +6,9 @@
 
 
 		<?php if(have_posts()): while (have_posts()) : the_post(); ?>
-			<?php
-			// Must be inside a loop.
-
-				if ( has_post_thumbnail() ) {
-					the_post_thumbnail();
-				}
-				else {
-					echo '<img src="' . get_bloginfo( 'stylesheet_directory' ) . '/images/thumbnail-default.jpg" class="img-responsive" />';
-				}
-			?>
+			<img src="<?php the_field('featured_image');?>" class="img-responsive" style="height:300px;" />
 			
-			<h2 class="recent-posts">
+			<h2 class="re-posts">
 				<a href="<?php the_permalink() ?>">
 					<?php the_title(); ?>
 				</a>

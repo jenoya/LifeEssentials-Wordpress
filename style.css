@@ -1,14 +1,7 @@
 
 /*  Theme Name: Basic Theme
   Version: 1
-  Author: Trevor*/
-
-
-/*helper class*/
-.green-background{background-color: #435555;}
-.red{background-color: red;}
-.whitefont{color: white;}
-.mt20{margin-top: 20px;}
+  Author: Jennifer*/
 
 body{
 	background-color: #435555;
@@ -16,6 +9,12 @@ body{
 	color: #001111;
 }
 .container{background-color: white; padding-bottom: 15px;}
+
+/*helper class*/
+.green-background{background-color: #435555;}
+.red{background-color: red;}
+.whitefont{color: white;}
+.mt20{margin-top: 20px;}
 
 .logo{
 	font-size: 72pt;
@@ -33,14 +32,19 @@ a:hover{
 	color: #001111;
 }
 ul{list-style-type: none;}
-li > a{color: white}
+.navbar-default .navbar-nav>li>a {color: white}
+
 .nav > li > a:hover, .nav > li > a:focus {border-radius: 0px;}
-.menu-menu-1-container{
+.navbar-default{
 	background-color: #001111;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	border-radius: 0px;
+	border-color: #001111;
 }
+.navbar-default .navbar-brand{color: white;}
+.navbar-collapse{border-color: #001111;}
 
 .content{padding-bottom: 15px;}
 

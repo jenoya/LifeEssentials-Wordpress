@@ -25,14 +25,9 @@
 										<?php the_title(); ?>
 									</a>
 								</h2>
-								<?php
-									if ( has_post_thumbnail() ) {
-										the_post_thumbnail();
-									}
-									else {
-										echo '<img src="' . get_bloginfo( 'stylesheet_directory' ) . '/images/thumbnail-default.jpg" class="img-responsive" />';
-									}
-									?>
+								<!-- <div class="row"> -->
+								<img src="<?php the_field('featured_image');?>" class="img-responsive" style="height:300px;" />
+								<!-- </div> -->
 							</li>
 							<?php endwhile; ?>
 						</ul>
@@ -50,14 +45,7 @@
 										<?php the_title(); ?>
 									</a>
 								</h2>
-								<?php
-									if ( has_post_thumbnail() ) {
-										the_post_thumbnail();
-									}
-									else {
-										echo '<img src="' . get_bloginfo( 'stylesheet_directory' ) . '/images/thumbnail-default.jpg" class="img-responsive" />';
-									}
-									?>
+								<img src="<?php the_field('featured_image');?>" class="img-responsive" style="height:300px;" />
 							</li>
 							<?php endwhile; ?>
 						</ul>
@@ -74,14 +62,7 @@
 										<?php the_title(); ?>
 									</a>
 								</h2>
-								<?php
-									if ( has_post_thumbnail() ) {
-										the_post_thumbnail();
-									}
-									else {
-										echo '<img src="' . get_bloginfo( 'stylesheet_directory' ) . '/images/thumbnail-default.jpg" class="img-responsive" />';
-									}
-									?>
+								<img src="<?php the_field('featured_image');?>" class="img-responsive" style="height:300px;" />
 							</li>
 							<?php endwhile; ?>
 						</ul>

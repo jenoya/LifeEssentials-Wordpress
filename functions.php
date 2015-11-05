@@ -1,23 +1,11 @@
-
-<!-- Register Menu -->
 <?php
 add_action( 'after_setup_theme', 'register_my_menu' );
 function register_my_menu() {
   register_nav_menu( 'primary', __( 'Primary Menu', 'theme-slug' ) );
 }
-?>
 
-
-<?php 
 add_theme_support( 'post-thumbnails' );
-?>
 
-<!-- Register Widgets -->
-<?php
-/**
- * Register our sidebars and widgetized areas.
- *
- */
 function arphabet_widgets_init() {
 
 	register_sidebar( array(
@@ -31,4 +19,3 @@ function arphabet_widgets_init() {
 
 }
 add_action( 'widgets_init', 'arphabet_widgets_init' );
-?>

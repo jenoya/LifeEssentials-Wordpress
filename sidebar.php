@@ -13,11 +13,6 @@
 		<p>Jennifer Oya discovered everyday carry blogs, and became obsessed. However, after seeing all of the websites about everyday carry blogs, and how they’re all seemingly male dominated, she wanted to make a gender friendly blog about all the cool and nifty tools, as well as reviews and interviews.<a>Read more.</a></p>
 	</div>
 <?php } ?>
-
-
-	<h2>See Older</h2>
-	<div>calendar</div>
-	<!-- make ads appear -->
 	
 	<div class="row ad">
 		<?php 

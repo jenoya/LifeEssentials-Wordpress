@@ -1,0 +1,37 @@
+
+
+
+caption{text-align: center;}
+
+/*
+collapse0
+inherant
+initial
+*/
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+	td, th{padding-left: 10px;}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	td, th{padding-left: 7px;}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	td, th{padding-left: 10px;}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	td, th{padding-left: 10px;}
+}
