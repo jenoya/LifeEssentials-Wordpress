@@ -13,7 +13,7 @@ Template Name: About Page
 		<!-- <div class="col-xs-3"> -->
 		<h1><?php the_title();?></h1>
 		<!-- </div> -->
-		<img src="<?php bloginfo('template_directory'); ?>/images/jenprofile.jpg" alt="Jennifer Oya" style="float:left; margin-right: 10px;">
+		<img src="<?php bloginfo('template_directory'); ?>/images/jenprofile.jpg" alt="Jennifer Oya" style="float:right; margin-left: 10px;">
 
 
 		<?php the_field("company_info"); ?>

@@ -7,7 +7,7 @@
 		<hr>
 
 		<?php if(have_posts()): while (have_posts()) : the_post(); ?>
-			<img src="<?php the_field('featured_image');?>" class="img-responsive featuredimage" style="height:300px;" />
+			<img src="<?php the_field('featured_image');?>" class="img-responsive featuredimage" style="max-height:300px;" />
 			
 			<h2 class="re-posts">
 				<a href="<?php the_permalink() ?>">

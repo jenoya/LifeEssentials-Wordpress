@@ -1,5 +1,5 @@
 
-<div class="col-xs-12 col-sm-3">
+<div class="col-xs-12 col-sm-3 sidebar-div">
 
 <?php if ( is_active_sidebar( 'home_right_1' ) ) : ?>
 	<div id="primary-sidebar" class="primary-sidebar widget-area mt20" role="complementary">
@@ -10,7 +10,7 @@
 <?php if(!is_page('about')){ ?>
 	<div class="about_info">
 		<h2>About</h2>
-		<p>Jennifer Oya discovered everyday carry blogs, and became obsessed. However, after seeing all of the websites about everyday carry blogs, and how they’re all seemingly male dominated, she wanted to make a gender friendly blog about all the cool and nifty tools, as well as reviews and interviews.<a>Read more.</a></p>
+		<p>Jennifer Oya discovered everyday carry blogs, and became obsessed. However, after seeing all of the websites about everyday carry blogs, and how they’re all seemingly male dominated, she wanted to make a gender friendly blog about all the cool and nifty tools, as well as reviews and interviews. <a href="<?php bloginfo('url'); ?>/about">Read more.</a></p>
 	</div>
 <?php } ?>
 	
@@ -31,10 +31,6 @@
 		<?php endwhile; endif; ?>
 	</div>
 
-	<div class="more-info">
-		<h2>More Info</h2>
-		<p>akjdfhldsjf hldskjf kjfhsdkjfhskjdf lasdkjfhkdsjf skdjfhkdsjfhks djlfadskjfhadskjfhadskj fksdjafkafksfhlsdkjfl adskfhds.</p>
-	</div>
 	<div class="social-row">
 		
 		<h2>Stay Social</h2>

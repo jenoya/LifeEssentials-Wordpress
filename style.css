@@ -8,7 +8,7 @@ body{
 	font-family: 'Lato', sans-serif;
 	color: #001111;
 }
-.container{background-color: white; padding-bottom: 15px;}
+.container{background-color: white;}
 
 /*helper class*/
 .green-background{background-color: #435555;}
@@ -16,14 +16,24 @@ body{
 .mt20{margin-top: 20px;}
 
 .logo{
-	font-size: 72pt;
+	font-size: 35pt;
 	font-weight: 100;
 	color: white;
 	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 logo > span{font-weight: 900;}
 
 h1 h2 h3 h4 p{color: #001111;}
+
+p{
+	font-size: 12pt;
+}
+
+blockquote{
+	border-left: 5px solid rgba(67, 85, 85, .85);
+}
 
 /*nav bar styles*/
 a{color: #001111;}
@@ -44,6 +54,7 @@ ul{list-style-type: none;}
 }
 .navbar-default .navbar-brand{color: white;}
 .navbar-collapse{border-color: #001111;}
+.navbar{margin-bottom: 0px;}
 
 .content{padding-bottom: 15px;}
 
@@ -103,6 +114,12 @@ a.footer-nav{color: white;}
 	margin-left: auto;
 }
 
+.sidebar-div{
+	background-color: #dceeee;
+	padding-bottom: 20px;
+}
+
+.copyright{margin-top: 15px;}
 /*==================================================
 =            Bootstrap 3 Media Queries             =
 ==================================================*/
@@ -114,12 +131,17 @@ a.footer-nav{color: white;}
 
 /* Custom, iPhone Retina */ 
 @media only screen and (min-width : 320px) {
-    
+	.logo{
+		background-color: red;
+	}
 }
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (min-width : 480px) {
-
+	.logo{
+		background-color: blue;
+		font-size: 40pt;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -129,6 +151,10 @@ a.footer-nav{color: white;}
 		/*background-color: blue;*/
 	}
 	.long{height: 150px;}
+	.logo{
+		background-color: green;
+		font-size: 50pt;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -143,6 +169,10 @@ a.footer-nav{color: white;}
 		/*width: 100%;*/
 		height: 230px;
 		/*background-color: blue;*/
+	}
+	.logo{
+		background-color: pink;
+		font-size: 60pt;
 	}
 
 }
@@ -162,4 +192,8 @@ a.footer-nav{color: white;}
 		/*background-color: black;*/
 	}
 
+	.logo{
+		font-size: 72pt;
+		background-color: blue;
+	}
 }
