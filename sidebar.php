@@ -26,7 +26,7 @@
 
 		if($ads->have_posts()): while ($ads->have_posts()) : $ads->the_post(); ?>
 			<a href="<?php the_field('link');?>">
-				<img src="<?php the_field('image');?>" class="img-responsive">
+				<img src="<?php the_field('image');?>" class="img-responsive aligncenter" style="padding-left: 15px; padding-right: 15px;">
 			</a>
 		<?php endwhile; endif; ?>
 	</div>
