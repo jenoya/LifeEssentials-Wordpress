@@ -12,10 +12,10 @@
 			<div class="col-xs-12 col-xs-5">
 				<h2>Navigate</h2>
 				<ul class="whitefont">
-					<li><a href="index.php">HOME</a></li>
-					<li><a href="about">ABOUT</a></li>
-					<li><a href="gallery">GALLERY</a></li>
-					<li><a href="advertise">ADVERTISE</a></li>
+					<li><a class="footer-nav" href="index.php">HOME</a></li>
+					<li><a class="footer-nav" href="about">ABOUT</a></li>
+					<li><a class="footer-nav" href="gallery">GALLERY</a></li>
+					<li><a class="footer-nav" href="advertise">ADVERTISE</a></li>
 				</ul>
 			</div>
 		</div>

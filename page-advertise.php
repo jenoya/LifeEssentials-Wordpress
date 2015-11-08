@@ -10,7 +10,7 @@
 		<!-- </div> -->
 
 			<h2>Advertise with Us</h2>
-			<hr/>
+			<hr>
 			<h3>Plans</h3>
 			
 			<div class="row">

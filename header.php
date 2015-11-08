@@ -47,15 +47,15 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
-						<li class="active"><a href="<?php bloginfo('url'); ?>">HOME<span class="sr-only">(current)</span></a></li>
-						<li><a href="<?php bloginfo('template_directory'); ?>/page-about.php">ABOUT</a></li>
-						<li><a href="<?php bloginfo('template_directory'); ?>/page-posts.php">POSTS</a></li>
-						<li><a href="<?php bloginfo('template_directory'); ?>/page-gallery.php">GALLERY</a></li>
-						<li><a href="<?php bloginfo('template_directory'); ?>/page-advertise.php">ADVERTISE</a></li>
+						<li class=""><a href="<?php bloginfo('url'); ?>">HOME<span class="sr-only">(current)</span></a></li>
+						<li class=""><a href="<?php bloginfo('url'); ?>/about">ABOUT</a></li>
+						<li class=""><a href="<?php bloginfo('url'); ?>/posts">POSTS</a></li>
+						<li class=""><a href="<?php bloginfo('url'); ?>/gallery">GALLERY</a></li>
+						<li class=""><a href="<?php bloginfo('url'); ?>/advertise">ADVERTISE</a></li>
 					</ul>
 				</div><!-- /.navbar-collapse -->
 			</div><!-- /.container-fluid -->
 		</nav>
 
 	</div>
-
+	

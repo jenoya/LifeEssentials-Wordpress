@@ -13,7 +13,6 @@ body{
 /*helper class*/
 .green-background{background-color: #435555;}
 .red{background-color: red;}
-.whitefont{color: white;}
 .mt20{margin-top: 20px;}
 
 .logo{
@@ -28,7 +27,7 @@ h1 h2 h3 h4 p{color: #001111;}
 
 /*nav bar styles*/
 a{color: #001111;}
-a:hover{
+a:hover, a:focus{
 	color: #001111;
 }
 ul{list-style-type: none;}
@@ -95,6 +94,14 @@ img.aligncenter {display: block; margin-left: auto; margin-right: auto;}
 
 }
 
+.whitefont{color: white;}
+a.footer-nav{color: white;}
+
+.longadcenter{
+	/*width: 80%;*/
+	margin-right: auto;
+	margin-left: auto;
+}
 
 /*==================================================
 =            Bootstrap 3 Media Queries             =
