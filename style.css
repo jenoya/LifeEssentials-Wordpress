@@ -131,15 +131,12 @@ a.footer-nav{color: white;}
 
 /* Custom, iPhone Retina */ 
 @media only screen and (min-width : 320px) {
-	.logo{
-		background-color: red;
-	}
+
 }
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (min-width : 480px) {
 	.logo{
-		background-color: blue;
 		font-size: 40pt;
 	}
 }
@@ -152,7 +149,6 @@ a.footer-nav{color: white;}
 	}
 	.long{height: 150px;}
 	.logo{
-		background-color: green;
 		font-size: 50pt;
 	}
 }
@@ -171,7 +167,6 @@ a.footer-nav{color: white;}
 		/*background-color: blue;*/
 	}
 	.logo{
-		background-color: pink;
 		font-size: 60pt;
 	}
 
@@ -194,6 +189,5 @@ a.footer-nav{color: white;}
 
 	.logo{
 		font-size: 72pt;
-		background-color: blue;
 	}
 }
